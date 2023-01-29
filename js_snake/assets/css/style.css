@@ -1,0 +1,122 @@
+body {
+    background-color: #262238;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-family: Major Mono Display, monospace;
+}
+
+h1, h3 {
+    margin: 0;
+}
+
+h2 {
+    font-size: .5em;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color .4s;
+}
+
+a:hover {
+    color: #36c549;
+    transition: color .4s;
+}
+
+#home {
+    background: #16171B;
+    background-size: 100% auto;
+    margin: 1em 6em;
+    padding: 0;
+    position: relative;
+    animation: bgColors 10s 3s infinite linear;
+}
+
+#home::before {    
+    content: "";
+    background-image: url('../images/bg-img.png');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0.6;
+}
+
+#home button {
+    font-family: inherit;
+    font-size: 1.2em;
+    border: #1b1e33 solid 2px;
+    background-color: #43ff5c;
+    padding: 1em;
+    transition: background-color .4s;
+    cursor: pointer;
+}
+
+#home button:hover {
+    background-color: #36c549;
+    transition: background-color .4s;
+}
+
+section {
+    font-weight: bold;
+    margin: 0;
+    padding: 1em 3em;
+    position: relative;
+    border: 10px solid #809b9d;
+}
+
+.rules p:last-of-type {
+    font-size: .7em;
+}
+
+#toCredits {
+    font-size: .5em;
+    position: absolute;
+    right: 10px;
+    bottom: 1px;
+}
+
+.credits {
+    display: none;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 1em;
+}
+
+.credits button {
+    margin-top: 1em;
+}
+
+button a:hover {
+    color: initial;
+}
+
+#countdown {
+    display: none;
+    font-size: 6em;
+    padding: 2em;
+}
+
+@keyframes bgColors {
+    0%, 25% {
+    background-color: #16171B;
+    }
+    25%, 45% {
+        background-color: #4C3E38;
+    }
+    45%, 100% {
+        background-color: #16171B;
+        }
+}

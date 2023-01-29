@@ -1,0 +1,50 @@
+/* Layout */
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: Roboto, Oxygen, Ubuntu, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #8f8cf7;
+    transition: color .3s;
+}
+
+a:hover {
+    color: #d6a3fb;
+    transition: color .3s;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 1em 0;
+}
+
+/* Components */
+
+header img {
+    max-width: 300px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+main, footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    margin: 1em;
+}
