@@ -25,7 +25,6 @@ Alternatively, click here to watch a video demo:
 
 - Responsive animation: cards list on desktop and carousel on mobile
 - Audio on click (as well as background music if your browser does not automatically block it)
-- Views count of the whole website displayed in the footer (create and upload a new file each day there is a new visitor)
 - On desktop, buttons at the bottom are linked with the cards through the DOM
 
 ## 🙏 Thank you for your visit
